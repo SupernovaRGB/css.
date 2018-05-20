@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000080;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border: 1px solid #0080ff;
+    border-right: 1px solid #0080ff;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0080ff;
+}
+
+.active {
+  background-color: #0080ff;
+}
+
+body {
+  margin: 20px;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+body .bg {
+      margin: 20px;
+      margin-right: 20px;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: lightblue;
+      opacity: .7;
+
+}
+
+html {
+  background-image: url("images/textures/034.jpg");
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  width: 400px;
+  Height:50px;
+}
+
+.island {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+h2 {
+  margin-left: 10%;
+}
+
+p {
+  margin-left: 10%;
+}
+
+table {
+  margin-left: 30%;
+}
+
+td a {
+  color: darkblue;
+  background-color: ;
+}
+
+.sorry {
+  background-color: #0080ff;
+  width: 38%;
+}
+
+.end {
+  border-right: 2px solid #0080ff;
+
+}
+
+.start {
+  border-left: 2px solid #0080ff;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-family: Arial;
+
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Arial;
+}
